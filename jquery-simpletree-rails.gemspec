@@ -9,7 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Maurizio Manetti"]
   spec.email         = ["maurizio@imanetti.net"]
 
-  spec.summary       = %q{}
   spec.homepage      = "https://github.com/mauntrelio/jquery-simpletree-rails"
   spec.summary       = %q{Use jQuery simpleTree with Rails 3.1 - 4.x}
   spec.description   = %q{This gem provides jQuery simpleTree for Rails 3.1 - 4.x application}
