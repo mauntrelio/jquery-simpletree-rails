@@ -1,6 +1,6 @@
 # jquery-simpletree-rails
 
-This gem provides the jquery simpleTree plugin found at https://mauntrelio.github.io/demos/jquery-simpletree/ for the Rails asset pipeline.
+This gem provides the jquery simpleTree plugin found at https://github.com/mauntrelio/jquery-simpletree/ for the Rails asset pipeline.
 
 ## Installation
 
