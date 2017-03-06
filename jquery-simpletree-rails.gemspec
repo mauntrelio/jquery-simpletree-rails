@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.license       = "MIT"
 
-  spec.add_dependency "railties", "> 3.1", "< 5.0"
+  spec.add_dependency "railties", "> 3.1"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
