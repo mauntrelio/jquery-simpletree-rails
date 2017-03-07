@@ -9,9 +9,12 @@ Add this line to your application's Gemfile:
 ```ruby
 gem 'jquery-simpletree-rails'
 ```
+
 And then execute:
 
-  $ bundle install
+```bash
+$ bundle install
+```
 
 Add this to 'app/assets/javascripts/application.js':
 
