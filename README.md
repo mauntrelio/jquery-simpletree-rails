@@ -11,7 +11,9 @@ gem 'jquery-simpletree-rails'
 ```
 And then execute:
 
-  $ bundle install
+```bash
+$ bundle install
+```
 
 Add this to 'app/assets/javascripts/application.js':
 
