@@ -18,10 +18,33 @@ $ bundle install
 
 Add this to 'app/assets/javascripts/application.js':
 
-	//= require simpleTree/jquery.simpletree
+```
+//= require simpleTree/jquery.simpletree
+```
 
 Add this to 'app/assets/stylesheets/application.css':
 
-	//= require simpleTree/simpleTree
+```
+*= require simpleTree/_simpleTree
+```
+
+Or, if you use scss:
+
+```scss
+@import 'simpleTree/simpleTree';
+```
+
+to 'app/assets/stylesheets/application.scss'.
 
 That's it!
+
+Now, to apply the treeview, you need to manage from your JavaScript code, for instance:
+
+```javascript
+$(document).ready(function(){
+	$('ul.treeview').simpleTree();
+});
+
+```
+
+Please have a look to https://github.com/mauntrelio/jquery-simpletree/ for further information about APIs (collapse, expand, repaint, etc..);
