@@ -22,6 +22,6 @@ Add this to 'app/assets/javascripts/application.js':
 
 Add this to 'app/assets/stylesheets/application.css':
 
-	//= require simpleTree/simpletree
+	//= require simpleTree/simpleTree
 
 That's it!

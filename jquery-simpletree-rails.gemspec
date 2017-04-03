@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["maurizio@imanetti.net"]
 
   spec.homepage      = "https://github.com/mauntrelio/jquery-simpletree-rails"
-  spec.summary       = %q{Use jQuery simpleTree with Rails 3.1 - 4.x}
-  spec.description   = %q{This gem provides jQuery simpleTree for Rails 3.1 - 4.x application}
+  spec.summary       = %q{Use jQuery simpleTree with Rails > 3.1}
+  spec.description   = %q{This gem provides jQuery simpleTree for Rails > 3.1 applications}
 
   spec.license       = "MIT"
 
